@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trabalhando com Funções</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Mais funções no JavaScript</h1>
+		<script type="text/javascript">
+			//Declara e nomear uma função chamada pulalinha
+			function pulaLinha() {
+				//Corpo da função. bloco de código que realiza uma arefa.
+				document.write("<br>");
+			}
+			//Criar uma função que recebe e exibe uma frase
+			function mostra(nome) {
+				document.write("Olá"  + nome);
+				pulaLinha();//Chamando uma função de dentro de outra.
+				document.write("Seja bem vindo!");
+			}
+			//Chama a função mostrar passando Gilvan como parâmetro.
+			mostra("Gilvan Paz");
+		</script>
+	</body>
+</html>
