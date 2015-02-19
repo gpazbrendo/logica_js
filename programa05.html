@@ -21,7 +21,8 @@
 				var altura = 1.70;
 				var imc = peso / (altura * altura);
 				//Passando para a função mostrar exibir o resultado.
-				mostra("Seu IMC é: " + imc);
+				//Usamos o método round da classe Math para arredondar.
+				mostra("Seu IMC é: " + Math.round(imc));
 			}
 			//Chamar a função para realização do calculo.
 			calculaIMC();
